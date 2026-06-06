@@ -270,6 +270,7 @@ def load_data_directory(data_dir: str) -> list[dict]:
 
     subdir_type_map = {
         "itineraries": "itinerary",
+        "itenaries": "itinerary",
         "properties": "property",
         "faqs": "faq",
         "policies": "policy"
@@ -285,7 +286,7 @@ def load_data_directory(data_dir: str) -> list[dict]:
             if os.path.isfile(file_path):
                 pages = load_document_file(file_path, doc_type)
                 all_pages.extend(pages)
-                print(f"[LOADER] {doc_type.upper()} | {fname} → {len(pages)} page(s)")
+                print(f"[LOADER] {doc_type.upper()} | {fname} -> {len(pages)} page(s)")
 
     print(f"[LOADER] Total pages loaded: {len(all_pages)}")
     return all_pages

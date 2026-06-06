@@ -1,0 +1,22 @@
+# Virtual Environments and Caches
+.env
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Secrets
+vaani-stay-firebase-adminsdk-fbsvc-0dab96fa47.json
+
+# Legacy RAG Pipeline Files (Not Used)
+manager.py
+retriever.py
+clients.py
+embedder.py
+chunker.py
+loader.py
+helpers.py
+booking_state.py
+ingest.py
+api_hindsight_cloud.py
+chroma_db/

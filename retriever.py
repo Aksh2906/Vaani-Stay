@@ -15,7 +15,7 @@ import numpy as np
 import google.generativeai as genai
 from rank_bm25 import BM25Okapi
 
-from src.prompts.templates import QUERY_REWRITER_PROMPT
+from templates import QUERY_REWRITER_PROMPT
 
 
 def tokenize(text: str) -> list[str]:

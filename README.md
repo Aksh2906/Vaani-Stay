@@ -1,133 +1,114 @@
-# Himachal Pradesh Homestay — RAG Pipeline
+# VaaniStay — AI Voice Booking Agent for Himachal Pradesh Homestays
 
-Adapted from the Feynman Digital Twin RAG pipeline.
-This module powers the AI booking agent's retrieval layer.
-
----
+VaaniStay is a real-time AI voice agent that handles phone-based booking enquiries for homestays in Himachal Pradesh. It receives live phone calls via Exotel, transcribes speech using Deepgram, generates contextual responses using Groq (Llama 3.3 70B), and speaks back to the caller in Hindi using Edge TTS — all in real time over a single WebSocket connection.
 
 ## Architecture
 
 ```
-data/
-  itineraries/   ← 45 JSON/PDF/TXT itineraries
-  properties/    ← Homestay room & property descriptions
-  faqs/          ← Common guest FAQs
-  policies/      ← Cancellation, house rules, booking policies
-
-       ↓ loader.py
-   Page records (text + metadata)
-
-       ↓ chunker.py
-   Sentence chunks with sliding window context (window=3)
-
-       ↓ embedder.py
-   BGE-small-en-v1.5 embeddings → ChromaDB
-
-                    At query time:
-                         ↓
-       User message → retriever.py (query rewriter → Gemini Flash)
-                         ↓
-              Hybrid Retrieval (Dense + BM25)
-                         ↓
-              Score Fusion (60% dense + 40% BM25)
-              + Source Authority + Domain Boost
-                         ↓
-              BGE Cross-Encoder Reranking
-                         ↓
-              Top-5 context windows → System Prompt
-                         ↓
-              Gemini Flash → Booking Agent Response
-                         ↓
-              manager.py → Memory extraction + update
-              booking_state.py → Booking state tracking
+Caller (Phone)
+    |
+Exotel (WebSocket)
+    |
+main.py ── Deepgram STT (Hindi, Nova-2)
+    |
+stream_tts.py ── Hindsight Cloud (RAG + Memory) --> Groq LLM --> Edge TTS
+    |
+Audio frames streamed back to caller via Exotel WebSocket
+    |
+On call end: Gemini extracts booking --> Firebase Firestore
 ```
 
----
+## Core Files
 
-## Changes from Feynman Pipeline
+| File | Purpose |
+|------|---------|
+| `main.py` | FastAPI WebSocket server. Receives Exotel audio, pipes to Deepgram for STT, dispatches transcripts to the LLM pipeline, and handles post-call booking extraction via Gemini. |
+| `stream_tts.py` | LLM + TTS pipeline. Recalls context from Hindsight Cloud, streams Groq responses, synthesises Hindi audio via Edge TTS, and sends Linear16 PCM frames back to the caller. Supports barge-in (user interruption). |
+| `templates.py` | System prompts for the booking agent, query rewriter, and memory extraction. |
+| `firebase_functions.py` | Writes extracted booking data and notifications to Firestore after each call. |
+| `api.py` | Standalone REST API (optional). Exposes `/receive_transcript` and `/get_agent_response` endpoints for non-telephony integrations. |
+| `ingest_hindsight_cloud.py` | One-time script to upload property data from `data/` into the Hindsight Cloud knowledge base. |
 
-| Component | Feynman | Himachal Homestay |
-|---|---|---|
-| `loader.py` | PDF + TXT | PDF + TXT + **JSON itineraries** (primary) |
-| `chunker.py` | Generic sentences | Same + **preserves structured itinerary lines** (Day N:, Accommodation:) |
-| `helpers.py` | 5 physics domains | **7 travel domains** (destination, accommodation, activities, pricing, logistics, food, policies) |
-| `templates.py` | Feynman persona prompt | **Deva booking agent prompt** + booking state injection + memory extraction prompt |
-| `manager.py` | Feynman identity memory | **Guest travel preference memory** (budget, interests, group type, contact) |
-| `retriever.py` | Same architecture | + **booking intent detection** → domain boost for pricing/accommodation chunks |
-| `embedder.py` | Feynman source authority | **Travel doc type authority** (itinerary=1.0, property=0.95, faq=0.90, policy=0.85) |
-| `booking_state.py` | ❌ (did not exist) | ✅ **NEW** — full booking lifecycle (idle → collecting → confirming → confirmed) |
+## Prerequisites
 
----
+- Python 3.11+
+- [uv](https://docs.astral.sh/uv/) (recommended) or pip
+- ffmpeg/ffplay installed and on PATH
+- [ngrok](https://ngrok.com/) for exposing local server to Exotel
 
-## Itinerary JSON Format
+## Environment Variables
 
-Place your 45 itineraries in `data/itineraries/` as JSON files:
+Create a `.env` file in the project root:
 
-```json
-{
-  "title": "Spiti Valley Explorer — 8D/7N",
-  "duration_days": 8,
-  "region": "Spiti",
-  "price_per_person": 18000,
-  "highlights": ["Tabo Monastery", "Key Monastery", "Chandratal Lake"],
-  "inclusions": ["Accommodation", "Meals (MAP)", "Inner Line Permit", "Cab"],
-  "exclusions": ["Flights", "Personal expenses"],
-  "notes": "Inner Line Permit required. Road opens May–October.",
-  "days": [
-    {
-      "day": 1,
-      "title": "Delhi → Shimla",
-      "description": "Overnight Volvo bus from Delhi to Shimla.",
-      "activities": ["Travel"],
-      "accommodation": "Shimla Homestay, The Mall",
-      "meals": "Dinner included"
-    }
-  ]
-}
+```env
+GROQ_API_KEY=gsk_...
+HINDSIGHT_API_KEY=hsk_...
+Deepgram_API_KEY=...
+Google_Gimini_API_KEY=...       # Used only for post-call booking extraction
 ```
 
----
+## Firebase Setup
 
-## Directory Structure
+1. Download your Firebase service account JSON from Firebase Console > Project Settings > Service Accounts.
+2. Place it in the project root as `vaani-stay-firebase-adminsdk-fbsvc-*.json`.
+3. The path is configured in `firebase_functions.py` line 15.
 
-```
-src/
-  pipeline/
-    loader.py          ← Document loading (PDF, TXT, JSON)
-    chunker.py         ← Sentence chunker with sliding window
-    embedder.py        ← BGE embedding + ChromaDB ingestion
-    retriever.py       ← Hybrid retriever (Dense + BM25 + Reranker)
-    manager.py         ← Guest memory management
-    booking_state.py   ← Booking session state tracker (NEW)
-    clients.py         ← BGE model loaders (cached)
-  utils/
-    helpers.py         ← Domain classification (7 travel domains)
-  prompts/
-    templates.py       ← System prompts + query rewriter + memory extractor
-memory/
-  guest_memory.json    ← Persistent guest profile
-bookings/
-  confirmed_bookings.json  ← Confirmed booking log
+## Installation
+
+```bash
+uv pip install fastapi uvicorn websockets httpx edge-tts groq pydub python-dotenv google-generativeai firebase-admin hindsight
 ```
 
----
+## Running
 
-## Booking State Lifecycle
+### 1. Ingest knowledge base (one-time)
+
+```bash
+uv run python ingest_hindsight_cloud.py
+```
+
+This uploads all files from `data/` into the `vaani_knowledge_base` bank on Hindsight Cloud.
+
+### 2. Start the voice server
+
+```bash
+uvicorn main:app --port 8080
+```
+
+### 3. Expose to the internet
+
+```bash
+ngrok http 8080
+```
+
+Copy the ngrok URL and configure your Exotel call flow to connect to:
 
 ```
-IDLE → COLLECTING → CONFIRMING → CONFIRMED
+wss://<ngrok-subdomain>.ngrok.app/stream
 ```
 
-- **IDLE**: No booking in progress
-- **COLLECTING**: Agent is gathering dates, guests, room preference, contact
-- **CONFIRMING**: All fields collected, summary shown to guest
-- **CONFIRMED**: Guest confirmed → Reference ID generated (HP-YYYYMMDD-XXXX)
+### 4. Test
 
----
+Call the Exotel number linked to the above WebSocket URL. The agent will answer in Hindi/Hinglish, retrieve relevant homestay information from Hindsight Cloud, and guide the caller through a booking.
 
-## Integration Notes for the Team
+## Key Design Decisions
 
-- The RAG pipeline is completely decoupled from the Streamlit UI — import and call `HybridRetriever.retrieve()` from anywhere.
-- `BookingStateManager` is session-scoped — instantiate once per conversation, store in `st.session_state`.
-- `manager.py` handles both JSON long-term memory and ChromaDB vector memory — call `extract_memory_from_turn()` after every agent response.
-- The query rewriter costs one Gemini API call per user turn. If rate limits are a concern, disable it for single-turn queries (when `chat_history` is empty, the rewriter already skips).
+**Transcript debouncing**: Deepgram often splits a single utterance into multiple `is_final` events. A 1.2-second debounce window merges these into one transcript before sending to the LLM, preventing half-sentence confusion.
+
+**Barge-in support**: If the caller speaks while the agent is responding, the current audio playback is immediately cancelled and the new transcript is processed.
+
+**Linear16 PCM encoding**: Exotel WebSocket uses Linear16 at 8kHz. The TTS pipeline converts Edge TTS MP3 output to raw PCM via pydub, avoiding the mulaw encoding mismatch that causes audio artefacts.
+
+**Persistent Hindsight event loop**: The Hindsight SDK caches its HTTP session on the first event loop. A single persistent background thread with its own event loop handles all Hindsight operations to avoid "Event loop is closed" errors.
+
+**Short responses**: The system prompt and `max_tokens=150` enforce concise, phone-friendly responses (under 2 sentences). Long AI-generated paragraphs are unusable over a phone call.
+
+## Data Directory
+
+The `data/` folder contains property descriptions, itineraries, FAQs, and pricing information in text format. These are ingested into Hindsight Cloud and retrieved at query time.
+
+## Legacy Files (Not Used)
+
+The following files are remnants of the previous local RAG pipeline and are no longer part of the active workflow:
+
+`manager.py`, `retriever.py`, `clients.py`, `embedder.py`, `chunker.py`, `loader.py`, `helpers.py`, `booking_state.py`, `ingest.py`, `api_hindsight_cloud.py`, `chroma_db/`

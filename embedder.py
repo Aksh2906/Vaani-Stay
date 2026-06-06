@@ -12,7 +12,7 @@ import hashlib
 import time
 import streamlit as st
 
-from src.utils.helpers import determine_domain
+from helpers import determine_domain
 
 
 def generate_deterministic_id(source: str, page: int, sentence_index: int) -> str:

@@ -19,15 +19,17 @@ import os
 import json
 import hashlib
 import time
-import google.generativeai as genai
 
-from src.prompts.templates import MEMORY_EXTRACTION_PROMPT
+
+
+from templates import MEMORY_EXTRACTION_PROMPT
 
 MEMORY_FILE = "./memory/guest_memory.json"
 GUEST_MEMORY_COLLECTION = "guest_memory"
 
-
+# Memory extraction now uses local ChromaDB
 # ---------------------------------------------------------------------------
+
 # JSON LONG-TERM MEMORY
 # ---------------------------------------------------------------------------
 
@@ -126,12 +128,29 @@ def update_memory_from_extraction(memory: dict, extracted: dict) -> dict:
     return memory
 
 
-def format_memory_for_prompt(memory: dict) -> str:
+def format_memory_for_prompt(memory: dict, user_id: str = None, chroma_client = None, embedder = None) -> str:
     """
     Formats the guest memory dict into a readable string for injection
-    into the system prompt.
+    into the system prompt. Recalls memories from ChromaDB if available.
     """
     lines = []
+    
+    # Recall memories from local ChromaDB
+    if chroma_client and embedder:
+        try:
+            results = retrieve_guest_vector_memories(chroma_client, embedder, "What are the user's travel preferences, budget, group type, and previous inquiries?")
+            if results:
+                print(f"[{user_id}] [LOCAL MEMORY RECALL] Found {len(results)} memories")
+                lines.append("--- Past Memories ---")
+                for r in results:
+                    lines.append(f"• {r}")
+                    print(f"  - {r}")
+                lines.append("--------------------------")
+            else:
+                print(f"[{user_id}] [LOCAL MEMORY RECALL] No memories found.")
+        except Exception as e:
+            print(f"[WARNING] Local memory recall failed: {e}")
+
     profile = memory.get("profile", {})
 
     if profile.get("name"):
@@ -231,12 +250,13 @@ def retrieve_guest_vector_memories(chroma_client, embedder, user_query: str, top
 # ---------------------------------------------------------------------------
 
 def extract_memory_from_turn(user_message: str, assistant_message: str,
-                              existing_memory: dict, api_key: str) -> dict:
+                              existing_memory: dict, api_key: str, user_id: str = None, chroma_client = None, embedder = None) -> dict:
     """
     Calls Gemini Flash to extract new guest facts from the latest exchange.
     Returns a dict of extracted fields (may be empty if nothing new).
+    Also retains facts in local ChromaDB if available.
     """
-    existing_str = format_memory_for_prompt(existing_memory)
+    existing_str = format_memory_for_prompt(existing_memory, user_id, chroma_client, embedder)
     prompt = MEMORY_EXTRACTION_PROMPT.format(
         existing_memory=existing_str,
         user_message=user_message,
@@ -244,15 +264,32 @@ def extract_memory_from_turn(user_message: str, assistant_message: str,
     )
 
     try:
-        genai.configure(api_key=api_key)
-        model = genai.GenerativeModel("gemini-2.5-flash")
-        response = model.generate_content(prompt)
-        raw = response.text.strip()
+        from groq import Groq
+        client = Groq(api_key=api_key)
+        
+        completion = client.chat.completions.create(
+            model="llama-3.3-70b-versatile",
+            messages=[
+                {"role": "system", "content": prompt}
+            ],
+            temperature=0.0,
+        )
+        raw = completion.choices[0].message.content.strip()
 
         # Strip markdown fences if present
         raw = raw.replace("```json", "").replace("```", "").strip()
 
         extracted = json.loads(raw)
+        
+        # Retain fact in local ChromaDB
+        if chroma_client and embedder and extracted:
+            try:
+                fact_str = f"User shared the following facts: {json.dumps(extracted)}"
+                print(f"[{user_id}] [LOCAL MEMORY RETAIN] Retaining: {fact_str}")
+                add_guest_vector_memory(chroma_client, embedder, fact_str)
+            except Exception as e:
+                print(f"[WARNING] Local memory retain failed: {e}")
+
         return extracted if isinstance(extracted, dict) else {}
 
     except Exception as e:
@@ -299,10 +336,17 @@ Return only the summary, no preamble.
 """
 
     try:
-        genai.configure(api_key=api_key)
-        model = genai.GenerativeModel("gemini-2.5-flash")
-        response = model.generate_content(prompt)
-        return response.text.strip()
+        from groq import Groq
+        client = Groq(api_key=api_key)
+        
+        completion = client.chat.completions.create(
+            model="llama-3.3-70b-versatile",
+            messages=[
+                {"role": "system", "content": prompt}
+            ],
+            temperature=0.3,
+        )
+        return completion.choices[0].message.content.strip()
     except Exception as e:
         print(f"[WARNING] Summarization failed: {e}")
         return current_summary
