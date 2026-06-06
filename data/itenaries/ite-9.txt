@@ -1,0 +1,611 @@
+█████████████████████████████████████████████████████████████
+█                                                           █
+█    H I M A C H A L   Q U E S T   L O G                  █
+█    Itineraries 36–40  ·  Batch 8  ·  Adventure Edition   █
+█    Format: RPG Quest Cards with XP, Loadouts & Bosses    █
+█                                                           █
+█████████████████████████████████████████████████████████████
+
+
+
+
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+  QUEST  #36  ·  BHRIGU LAKE — THE SAGE'S MIRROR
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+
+  ┌─────────────────────────────────────────────────────┐
+  │  CLASS:    Grassland Explorer                       │
+  │  LEVEL:    Beginner → Intermediate                  │
+  │  XP REWARD: ████████░░  800 XP                     │
+  │  DAYS:     4  (2 trek + 2 travel)                   │
+  │  REGION:   Kullu Valley, above Manali               │
+  │  SEASON:   May–October                              │
+  │  GOLD COST: ₹8,000–₹14,000 / adventurer            │
+  └─────────────────────────────────────────────────────┘
+
+  QUEST LORE:
+  ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  The Bhrigu Lake Trek is often regarded as the most
+  beautiful and scenic trek in Himachal Pradesh. This
+  easy-to-moderate grade trek offers a memorable journey
+  through lush alpine meadows, with uninterrupted views
+  of snow-covered Himalayan peaks.  The lake is sacred
+  as sage Bhrigu meditated here.  It is said he wrote
+  the Bhrigu Samhita — the ancient astrological text —
+  at this very lake. The trail leads to a serene
+  glacial lake nestled at high altitude, which is
+  believed to change its colour every season. 
+  ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+
+  ⚔ GEAR LOADOUT
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  [EQUIPPED]  Trekking shoes (not boots — trail is good)
+  [EQUIPPED]  Fleece + windproof jacket
+  [EQUIPPED]  Sunscreen SPF 50 (meadow UV is intense)
+  [EQUIPPED]  2L water + purification tabs
+  [EQUIPPED]  Camera / phone with charged battery
+  [OPTIONAL]  Trekking poles (useful on descent)
+  [SKIP]      Crampons — not needed May–October
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ── QUEST STAGES ────────────────────────────────────
+
+  [ DAY 1 ]  STAGE: CHANDIGARH → MANALI
+  ▸ Travel day. Overnight Volvo from Chandigarh
+    (departs ~5 PM, arrives Manali ~6 AM) OR fly
+    into Bhuntar and taxi to Manali.
+  ▸ Rest at Manali. Vashisht hot springs in the
+    afternoon. Gear check at Old Manali shops.
+  ▸ MINI-BOSS: The Manali traffic jam. Patience
+    required. Side quest: find the best thukpa
+    café in Old Manali. Reward: hot noodles.
+  SAVE POINT: Manali hotel  ₹1,500–3,000
+
+  [ DAY 2 ]  STAGE: GULABA → BHRIGU LAKE → GULABA
+  ▸ Starting from Gulaba, near Manali,  drive 22 km
+    on the Rohtang road to Gulaba (3,100m). Trek
+    begins here. 7 km to the lake, 400m elevation gain.
+  ▸ The trail crosses open meadows — no forest cover,
+    pure Himalayan grassland in every direction.
+    Hanuman Tibba (5,982m) and Deo Tibba (6,001m)
+    flank you north and east.
+  ▸ Bhrigu Lake (4,300m): the lake is situated at
+    a height of 4,300m and changes colour with
+    the season  — green in summer, steel-blue in
+    autumn, frozen white in winter.
+  ▸ BOSS ENCOUNTER: The altitude. 4,300m without
+    prior acclimatisation hits harder than expected.
+    Walk slow. Breathe deep. Drink water.
+  ▸ Return to Gulaba. Drive to Manali.
+  SAVE POINT: Manali hotel  ₹1,500–3,000
+
+  ★ XP BONUS: Watch sunrise from the lake (+200 XP)
+    → Requires overnight camp at Bhrigu Lake
+    → Adds 1 day and a cold night
+
+  [ DAY 3 ]  STAGE: MANALI BONUS DUNGEON
+  ▸ Hadimba Devi Temple (ancient carved wood boss lair)
+  ▸ Roerich Gallery (culture XP, Naggar, 37 km south)
+  ▸ Mall Road loot: Kullu shawls, Tibetan trinkets
+
+  [ DAY 4 ]  STAGE: DEPARTURE
+  ▸ Overnight Volvo to Delhi / fly from Bhuntar.
+
+  QUEST COMPLETE. REWARD UNLOCKED:
+  ✦ Title: "Meadow Wanderer of the Upper Kullu"
+  ✦ Skill gained: High Altitude Navigation (Beginner)
+  ✦ Item: 1 jar Parvati Valley wild honey
+
+  ON THE PLATE: Manali apple juice · Gulaba roadside
+  chai · Summit snack: trail mix + dark chocolate ·
+  Post-trek thali at Johnson Café · Old Manali
+  apple crumble to celebrate.
+
+
+
+
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+  QUEST  #37  ·  PATALSU PEAK — THE BEGINNER'S SUMMIT
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+
+  ┌─────────────────────────────────────────────────────┐
+  │  CLASS:    Peak Bagger (Entry Level)                │
+  │  LEVEL:    Intermediate                             │
+  │  XP REWARD: ████████████░  1,100 XP                │
+  │  DAYS:     4 trek + 2 travel = 6 total             │
+  │  REGION:   Solang Valley, above Manali              │
+  │  SEASON:   May–June, September–October              │
+  │  GOLD COST: ₹10,000–₹17,000 / adventurer           │
+  └─────────────────────────────────────────────────────┘
+
+  QUEST LORE:
+  ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  Patalsu Peak lies at 13,451 ft above sea level
+  near Manali. One of the easier trekking peaks in
+  Himachal, it provides some cherished memories of the
+  Himalayas. Perfect for beginners as well as true
+  mountain lovers.  The peak is a non-technical
+  summit — no ropes, no ice axe, no mountaineering
+  experience needed. Just fitness, acclimatisation,
+  and a guide. The views from the top: Rohtang Pass,
+  Solang Valley, the entire Kullu horizon, and on
+  clear days as far as the Spiti ranges.
+  ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+
+  ⚔ GEAR LOADOUT
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  [REQUIRED]  Trekking boots with ankle support
+  [REQUIRED]  -10°C sleeping bag
+  [REQUIRED]  Trekking poles (scree descent)
+  [REQUIRED]  Warm base layers + down jacket
+  [REQUIRED]  Waterproof shell (afternoon storms)
+  [OPTIONAL]  Micro-spikes (early season May–June)
+  [UPGRADE]   Hire a cook through your guide agency
+              for hot meals at camp (+comfort XP)
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ── QUEST STAGES ────────────────────────────────────
+
+  [ DAY 1 ]  CHANDIGARH → MANALI (overnight Volvo)
+  [ DAY 2 ]  MANALI ACCLIMATISE
+  ▸ Walk to Vashisht. Soak. Eat well. Sleep early.
+  ▸ SIDE QUEST: Find the highest-rated momos stall
+    in Old Manali. (Hint: it is down a narrow lane
+    behind the main road and has no sign.)
+
+  [ DAY 3 ]  STAGE: SOLANG → DHUNDI → PATALSU BASE
+  ▸ Drive to Solang (13 km). Trek 6 km to Dhundi
+    (2,900m) through pine and oak. Continue upward
+    through alpine meadow to base camp (3,500m).
+  ▸ Pass through the meadows of Dhundi and Bakarthach.
+    Marvel at the majestic peaks of Hanuman Tibba,
+    Friendship Peak, Shitidhar and Seven Sisters. 
+  ▸ MINI-BOSS: The 600m elevation gain from Solang
+    to base camp in one day. Slow pace wins.
+  SAVE POINT: Base Camp (3,500m)  ₹ guide-arranged
+
+  [ DAY 4 ]  STAGE: SUMMIT DAY — PATALSU PEAK 4,100m
+  ▸ Leave camp at 5 AM. 3 km to summit, 600m gain.
+    Rocky trail with some scrambling sections.
+    No technical gear needed.
+  ▸ FINAL BOSS: The last 200m. Scree, wind, and
+    the altitude conspire to make every step harder
+    than it looks. Keep moving. Stop and breathe.
+    Repeat.
+  ▸ At the summit: Rohtang Pass below you. Solang
+    Valley laid out like a map. The Friendship Peak
+    glacier gleaming in the morning sun.
+  ▸ Descent to base camp then all the way to Solang.
+  SAVE POINT: Manali hotel  ₹1,500–3,000
+
+  [ DAY 5 ]  BONUS DUNGEON: NAGGAR CASTLE + ROERICH
+  [ DAY 6 ]  DEPARTURE → DELHI
+
+  QUEST COMPLETE. REWARD UNLOCKED:
+  ✦ Title: "Summit Initiate of Patalsu"
+  ✦ Skill gained: Peak Navigation (Beginner)
+  ✦ Unlocks: Friendship Peak quest (need 3 more
+    high-altitude treks before attempting)
+
+  ON THE PLATE: Solang chai stall Maggi · Base camp
+  cook daal and rice · Summit glucose biscuits and
+  jaggery · Manali celebration thali · Old Manali
+  banana pancake (legendary, widely available).
+
+
+
+
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+  QUEST  #38  ·  PIN PARVATI PASS — THE GRAND CROSSING
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+
+  ┌─────────────────────────────────────────────────────┐
+  │  CLASS:    Grand Crosser / Expedition Trekker       │
+  │  LEVEL:    Expert                                   │
+  │  XP REWARD: ████████████████████  2,000 XP         │
+  │  DAYS:     11 trek + 2 travel = 13 total           │
+  │  REGION:   Parvati Valley (Kullu) → Pin Valley (Spiti)│
+  │  SEASON:   JULY–AUGUST only (snow melts by July)   │
+  │  GOLD COST: ₹30,000–₹50,000 / adventurer           │
+  │  PRE-REQ:  Minimum 3 previous high-altitude treks  │
+  └─────────────────────────────────────────────────────┘
+
+  QUEST LORE:
+  ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  Pin Parvati Pass (5,319m) is the longest, hardest,
+  and most remote trek that remains accessible to
+  non-technical trekkers in all of Himachal Pradesh.
+  The exhilaration of traversing a 17,457 ft pass
+  is an experience of a lifetime.  It starts in the
+  lush, river-loud, Israeli-café world of the Parvati
+  Valley and ends in the silent brown lunar landscape
+  of the Pin Valley, Spiti. Two worlds separated by
+  one impossible-looking ridge. 11 days of walking
+  to cross it.
+  ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+
+  ⚔ GEAR LOADOUT — FULL EXPEDITION BUILD
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  [CRITICAL]   -20°C sleeping bag — not negotiable
+  [CRITICAL]   4-season mountain tent
+  [CRITICAL]   Crampons + gaiters
+  [CRITICAL]   Trekking poles x2
+  [CRITICAL]   Water filter (Sawyer / Lifestraw)
+  [CRITICAL]   Satellite communicator (SPOT/inReach)
+  [CRITICAL]   First aid kit + altitude medication
+  [REQUIRED]   Mountaineering boots (not trek shoes)
+  [REQUIRED]   Waterproof everything
+  [REQUIRED]   11 days food supply (all purchased
+               in Kasol before entering)
+  [UPGRADE]    Hire a cook porter — saves energy
+               for the pass crossing days
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ── QUEST MAP ───────────────────────────────────────
+
+  START ZONE:   BARSHAINI, PARVATI VALLEY
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  [ D1 ]  Barshaini (2,140m) → Kheerganga (3,050m)
+          │ 12 km · 5 hrs
+          │ Through forest and waterfall country.
+          │ Natural hot springs at Kheerganga camp.
+          │ Soak in them. You have 10 days of hard
+          │ ground ahead.
+          CAMP: Kheerganga
+
+  [ D2 ]  Kheerganga → Tunda Bhuj  (3,660m)
+          │ 10 km · 6 hrs
+          │ Forest thins. Valley widens. Snow patches
+          │ appear on the surrounding peaks. The
+          │ Parvati River shrinks from a roar to
+          │ a whisper as you near its source.
+          CAMP: Tunda Bhuj
+
+  [ D3 ]  Tunda Bhuj → Thakur Kuan  (3,900m)
+          │ 9 km · 5 hrs
+          │ Above treeline. Moraine and boulderfields.
+          │ The pass is visible for the first time —
+          │ a notch far above in a wall of ice and rock.
+          │ MINI-BOSS: First night above 3,800m.
+          │ Sleep slow. Breathe slow. Eat anyway.
+          CAMP: Thakur Kuan
+
+  [ D4 ]  ACCLIMATISATION + REST
+          │ Stay at Thakur Kuan. Short walk upvalley.
+          │ Your body needs this day even if you
+          │ do not feel like you do.
+          CAMP: Same
+
+  [ D5 ]  Thakur Kuan → Mantalai Lake  (4,100m)
+          │ 12 km · 7 hrs — LONGEST DAY
+          │ To arrive in Mantalai there is a trekking
+          │ distance of about 12 hours.  The source
+          │ of the Parvati River — Mantalai Lake is
+          │ a glacial lake at 4,100m, bright blue,
+          │ utterly isolated. The pass is now directly
+          │ above. Overnight here.
+          CAMP: Mantalai Lake
+
+  [ D6 ]  REST / WEATHER BUFFER AT MANTALAI
+          │ Pin Parvati Pass crossings fail most
+          │ often because trekkers skip the buffer
+          │ day here. Do not skip it.
+
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  FINAL BOSS ZONE:  PIN PARVATI PASS  (5,319m)
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  [ D7 ]  PASS CROSSING — THE BOSS
+          │ Leave Mantalai at 3 AM.
+          │ 5 km to the summit. 1,200m vertical gain.
+          │ Glacier crossing in crampons. Fixed ropes
+          │ on the steepest section. Guide mandatory.
+          │
+          │ Summit 5,319m: You stand on the ridge
+          │ between two worlds. Look south — the
+          │ Parvati Valley and ultimately Bhuntar,
+          │ Kullu, the plains. Look north — Pin Valley,
+          │ brown and utterly still, Spiti beyond.
+          │
+          │ Descent to the Pin side. Long. Steep.
+          │ Snow and scree. Camp at Pin Valley high
+          │ camp (4,400m).
+          CAMP: Pin Valley high camp
+
+  END ZONE:   PIN VALLEY, SPITI
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  [ D8–D10 ]  DESCENT THROUGH PIN VALLEY
+              │ 3 days to trek down to Mudh village
+              │ (road head) through Pin Valley's lunar
+              │ landscape. The transformation from
+              │ green Kullu to brown Spiti is total —
+              │ as if someone has sucked all colour
+              │ from the world and replaced it with
+              │ silence and space.
+              CAMPS: Pin Valley camp sites (guide arranges)
+
+  [ D11 ]  MUDH → KAZA  (road, 35 km)
+           │ Jeep from Mudh to Kaza. Hot meal.
+           │ Real bed. Achievement unlocked.
+
+  DAYS 12–13  KAZA → SHIMLA/MANALI → DELHI
+
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  QUEST COMPLETE. REWARDS UNLOCKED:
+  ✦ Title: "Crosser of Worlds — Kullu to Spiti"
+  ✦ Skill: Expert High-Altitude Navigation
+  ✦ Achievement: "Two Valleys, One Ridge"
+  ✦ Unlocks: Bara Bhangal and Friendship Peak quests
+  ✦ Bonus: Kaza café apple crumble never tasted
+    this good in your entire life
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ON THE PLATE: Kasol Israeli hummus (pre-quest
+  fuel-up) · Kheerganga hot spring camp meal · 11
+  days cook-prepared camp food · Mantalai Lake
+  instant noodles at 4,100m · Kaza café post-quest
+  celebration: thukpa + apple crumble + cold Spiti.
+
+
+
+
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+  QUEST  #39  ·  MANALI–LEH HIGHWAY — THE ROAD TO LADAKH
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+
+  ┌─────────────────────────────────────────────────────┐
+  │  CLASS:    Road Warrior / Highway Pilgrim           │
+  │  LEVEL:    Moderate (road, not trek)                │
+  │  XP REWARD: ████████████░  1,200 XP (Himachal leg) │
+  │  DAYS:     5 (Himachal portion only)               │
+  │  REGION:   Manali → Baralacha La → Sarchu           │
+  │  SEASON:   JUNE–OCTOBER only                        │
+  │  GOLD COST: ₹12,000–₹22,000 / traveller            │
+  │  NOTE:     This covers the Himachal portion of     │
+  │            the Manali–Leh highway. Leh is          │
+  │            in Ladakh — a separate territory.       │
+  └─────────────────────────────────────────────────────┘
+
+  QUEST LORE:
+  ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  The Manali–Leh Highway is one of the great roads on
+  Earth. It crosses five mountain passes, the highest
+  of which is Tanglang La at 5,328m (in Ladakh), and
+  traverses landscapes that shift from green Kullu to
+  brown Lahaul to lunar Spiti-adjacent to the high
+  Tibetan plateau. The highway remains blocked
+  completely between Darcha and Ladakh during winter
+  and opens by mid-May most years.  This itinerary
+  covers the Himachal Pradesh section — Manali to
+  Sarchu, 250 km, five world-class landscapes.
+  ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+
+  ── HIGHWAY STAGE MAP ───────────────────────────────
+
+  [ D1 ]  MANALI PREP + ATAL TUNNEL
+          ▸ Fuel, supplies, cash (last ATMs at Manali).
+          ▸ Drive the 8.9 km Atal Tunnel — India's
+            longest road tunnel, opened 2020, connects
+            Manali to Sissu in Lahaul at 3,100m.
+          ▸ MINI-BOSS: The Rohtang eco-permit (if
+            going over Rohtang instead of tunnel).
+          SAVE POINT: Keylong  ₹900–1,800
+          WAYPOINT ALT: Jispa camp (more scenic)  ₹1,500
+
+  [ D2 ]  KEYLONG → JISPA → DARCHA → BARALACHA LA
+          ▸ The Lahaul Valley road follows the Bhaga
+            River north through wide brown landscape.
+          ▸ Jispa (3,180m): a small camp settlement
+            on the river, last place before the high
+            passes. Last trees. Last chai with milk.
+          ▸ Zing Zing Bar: the final chai point before
+            Baralacha La. A tent. A kerosene stove.
+            The best chai of your life at 4,600m.
+
+          BARALACHA LA: 4,890m
+          ▸ The pass where the Lahaul, Spiti, and
+            Ladakh watersheds meet. Three rivers are
+            born within a few km of this point.
+          ▸ In June: deep snow on both sides, BRO
+            snowploughs working through the night.
+          ▸ In August: dry, brown, and ferociously windy.
+          ▸ Descend to camp at Bharatpur (4,500m).
+          SAVE POINT: Bharatpur tented camp  ₹800–1,400
+
+  [ D3 ]  BHARATPUR → SARCHU
+          ▸ Continue through the More Plains — a high
+            altitude flat expanse at 4,600m where
+            kiang (Tibetan wild ass) graze alongside
+            the road. You are now in the sky.
+          ▸ Sarchu (4,253m): the Himachal Pradesh–
+            Ladakh border. The last point of HP.
+            A row of tented camps. Wind always blowing.
+            Temperature dropping at 3 PM like a door
+            closing.
+          SAVE POINT: Sarchu tented camp  ₹1,200–2,000
+
+          [NOTE: Cross into Ladakh from here for Leh.
+           This quest ends at the HP/Ladakh border.]
+
+  [ D4 ]  SARCHU ACCLIMATISE + RETURN OPTION
+          ▸ If not continuing to Leh: rest day at
+            Sarchu, then 2-day return to Manali.
+          ▸ SIDE QUEST: Hike the ridge above Sarchu
+            for high-altitude plains views (+100 XP)
+          ▸ ALTITUDE WARNING: Sarchu is at 4,253m.
+            Many travellers experience AMS here. Do
+            not push through symptoms. Turn back if
+            headache is severe.
+
+  [ D5 ]  RETURN: SARCHU → KEYLONG → MANALI
+          ▸ Reverse the route. Baralacha La again
+            from the other side. Lahaul valley again.
+            Atal Tunnel. Manali by evening.
+          SAVE POINT: Manali hotel  ₹1,500–3,000
+
+  ── ROAD WARRIOR FIELD NOTES ────────────────────────
+  FUEL      → Fill at Manali. Next reliable pump:
+              Keylong. After that: nothing until Leh.
+              Carry 10L reserve in a jerry can.
+  TYRES     → Carry a spare. Seriously.
+  FOOD      → Buy 3 days of dry provisions at Manali
+              market. Tented dhabas exist but are
+              not guaranteed.
+  ALTITUDE  → Gain is fast on this road. Go slow.
+              Do not drive straight from Manali to
+              Sarchu in one day.
+  SEASON    → The highway typically opens completely
+              by mid-May and closes in mid-October. 
+              July–September is the safest window.
+
+  QUEST COMPLETE. REWARD UNLOCKED:
+  ✦ Title: "Highway Pilgrim of the Bhaga Valley"
+  ✦ Item unlocked: Zing Zing Bar chai memory
+    (permanent buff — never forgotten)
+  ✦ Unlocks: Full Manali–Leh achievement if you
+    continue to Leh (Ladakh quest required)
+
+  ON THE PLATE: Manali stuffed parathas (carry out) ·
+  Keylong dhabha daal · Jispa camp cook dinner ·
+  Zing Zing Bar chai at 4,600m · Sarchu tent
+  camp Maggi in a sleeping bag.
+
+
+
+
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+  QUEST  #40  ·  LAHAUL ROAD TRIP — THE WIDE BROWN WORLD
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▄▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+
+  ┌─────────────────────────────────────────────────────┐
+  │  CLASS:    Desert Road Explorer                     │
+  │  LEVEL:    Easy–Moderate (road-based)               │
+  │  XP REWARD: ████████░░░░  900 XP                   │
+  │  DAYS:     5                                        │
+  │  REGION:   Lahaul district — full circuit          │
+  │  SEASON:   June–September                           │
+  │  GOLD COST: ₹11,000–₹19,000 / traveller            │
+  └─────────────────────────────────────────────────────┘
+
+  QUEST LORE:
+  ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  Lahaul is Himachal's forgotten valley. Most tourists
+  drive straight through it on the way to Spiti or Leh.
+  This is a mistake of the first order. Lahaul is wider,
+  emptier, more dramatic, and more culturally rich than
+  either destination — it simply lacks the Instagram
+  shorthand that its neighbours have acquired. This
+  quest treats Lahaul as the destination, not the
+  route — five days dedicated entirely to the Chandra
+  and Bhaga river systems, the monasteries, the
+  Pattan Valley potato farms, and the high passes
+  that frame the sky.
+  ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+
+  ── QUEST STAGES ────────────────────────────────────
+
+  [ D1 ]  MANALI → ATAL TUNNEL → SISSU
+          ▸ Cross the tunnel at dawn when the light
+            on the Lahaul side is horizontal and gold.
+          ▸ Sissu (3,080m): a small village famous for
+            its waterfall — a thin silver thread dropping
+            300m from a hanging valley directly above.
+            Drive right under it on the highway.
+          ▸ The Chandra River from Sissu eastward:
+            wide braided channels across flat valley
+            floor. Prayer flags on every ridge.
+          SAVE POINT: Keylong  ₹900–1,800
+
+  [ D2 ]  KEYLONG BASE + MONASTERY CIRCUIT
+          ▸ Keylong (3,080m) is the Lahaul capital —
+            unassuming, functional, and surrounded by
+            monasteries. Morning: drive across the
+            valley to Kardang Monastery (1 km steep
+            walk above the road). Monks offer butter
+            tea to genuine visitors.
+          ▸ Shashur Monastery (3,940m): 2 km walk
+            above Keylong through juniper forest.
+            June is the annual Shashur festival —
+            masked Cham dances in the monastery
+            courtyard, one of Lahaul's best events.
+          ▸ Afternoon: Tayul Monastery (10 km north
+            of Keylong) — a large complex with a
+            four-metre statue of Padmasambhava, lamps
+            burning, monks chanting.
+          SAVE POINT: Keylong  ₹900–1,800
+
+  [ D3 ]  CHANDRA VALLEY → TANDI → GRAMPHOO
+          ▸ Drive east from Keylong along the Chandra
+            River (the Manali–Kaza highway).
+          ▸ Tandi (8 km from Keylong): the sacred
+            confluence of Chandra and Bhaga rivers
+            — where the Chenab River is born. Flags
+            everywhere. BRO signs. The last petrol
+            pump before Kaza.
+          ▸ Continue to Gramphoo (3,300m) — the road
+            junction where the Kaza road branches
+            east and the Leh road goes north.
+          ▸ SHORT TREK UNLOCK: From Gramphoo, a 4 km
+            walk to the moraine above gives views of
+            both the Manali side and the Chandra Valley.
+          ▸ Return to Keylong or camp at Gramphoo.
+          SAVE POINT: Camp at Gramphoo / Keylong
+
+  [ D4 ]  MIYAR VALLEY SIDE QUEST
+          ▸ Drive from Keylong 53 km to Udaipur HP.
+          ▸ En route: Trilokinath Temple — one of the
+            rare temples sacred to both Hindus and
+            Buddhists, a six-armed white marble deity.
+          ▸ Turn into Miyar Valley: 75 km of glacial
+            wilderness, Mt Menthosa (6,443m) at its
+            head, no tourist infrastructure.
+          ▸ Drive 20 km into the valley. Walk 4 km
+            up the Miyar Nala. Return by afternoon.
+          ▸ BOSS ENCOUNTER: The Miyar Valley road
+            ends at a hanging glacier snout. The ice
+            calves in the afternoon. Do not camp
+            directly below it.
+          SAVE POINT: Udaipur HP guesthouse  ₹700–1,200
+
+  [ D5 ]  RETURN TO MANALI + ROHTANG (IF OPEN)
+          ▸ Drive back through Lahaul one final time.
+            Stop at every viewpoint you skipped
+            on the way in. They all deserve it.
+          ▸ If Rohtang is open (check eco-permit),
+            cross it for the contrast view: turn and
+            look north from Rohtang at the vast brown
+            Lahaul spread — then turn south at the
+            sudden green of Kullu. The mountain
+            creates two worlds with one ridge.
+          ▸ Arrive Manali by evening.
+          SAVE POINT: Manali hotel  ₹1,500–3,000
+
+  ── LAHAUL INTEL ────────────────────────────────────
+  CROPS      → Lahaul grows 70% of India's certified
+               seed potato. The flat valley floors in
+               summer are geometric green potato fields.
+  FUEL       → Keylong and Tandi only. Fill both times.
+  FESTIVAL   → Shashur Monastery festival: June/July.
+               Halda festival: winter (November). Both
+               extraordinary, almost no tourists attend.
+  LANGUAGE   → Lahuli (Tinan) is the primary language;
+               Hindi second; English third.
+  NETWORK    → BSNL works best. Jio in Keylong only.
+
+  QUEST COMPLETE. REWARD UNLOCKED:
+  ✦ Title: "Lahaul Valley Keeper"
+  ✦ Item: Cardamom from Trilokinath temple langar
+  ✦ Passive buff: You now know that Lahaul exists
+    and is better than the place everyone goes to.
+
+  ON THE PLATE: Lahauli daal (different from Spiti —
+  earthier, richer) · Butter tea at Kardang monastery ·
+  Tandi dhaba parathas · Miyar Valley packed lunch ·
+  Trilokinath langar prasad · Manali apple cider to close.
+
+█████████████████████████████████████████████████████████████
+  END OF BATCH 8  ·  ITINERARIES 36–40 COMPLETE
+  40 of 100 done — 40% COMPLETE  ·  Say "next 5" → 41–45
+█████████████████████████████████████████████████████████████
