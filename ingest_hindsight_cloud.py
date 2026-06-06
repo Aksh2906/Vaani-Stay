@@ -5,7 +5,7 @@ from hindsight import HindsightClient
 
 load_dotenv()
 
-HINDSIGHT_API_KEY = hsk_d02befde2cea6af1da262f0cf2def5e7_36a198e1c59bd005
+HINDSIGHT_API_KEY = os.environ.get("HINDSIGHT_API_KEY")
 
 if not HINDSIGHT_API_KEY:
     print("Error: HINDSIGHT_API_KEY not set in .env")
