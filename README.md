@@ -106,9 +106,3 @@ Call the Exotel number linked to the above WebSocket URL. The agent will answer 
 ## Data Directory
 
 The `data/` folder contains property descriptions, itineraries, FAQs, and pricing information in text format. These are ingested into Hindsight Cloud and retrieved at query time.
-
-## Legacy Files (Not Used)
-
-The following files are remnants of the previous local RAG pipeline and are no longer part of the active workflow:
-
-`manager.py`, `retriever.py`, `clients.py`, `embedder.py`, `chunker.py`, `loader.py`, `helpers.py`, `booking_state.py`, `ingest.py`, `api_hindsight_cloud.py`, `chroma_db/`
